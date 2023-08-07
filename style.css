@@ -1,0 +1,259 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
+
+  :root{
+    --color-white:#fff
+  }
+  body{
+    padding: 0;
+    margin: 'roboto mono', monospace;
+  }
+
+ 
+ 
+
+  .navbar .navbar-brand{
+    color: var(--color-white);
+
+  }
+
+  .nav .navbar-brand:hover{
+    color:white;
+
+  }
+    .navbar-nav .nav-link{
+        color:var(--color-white);
+        font-size: 15px;
+    }
+
+/* home section */
+
+
+.home{
+    background-image: url(./images/lagos\ \(1\).jpg);
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 20vh;
+
+
+}
+
+.home .padding{
+    padding-top: 100px;
+    font-size: 40px;
+    color: var(--color-white);
+
+}
+.padding h1{
+}
+.padding h5{
+    color: var(--color-white);
+    font-weight: 900;
+    font-size: 30px;
+
+}
+.home .input{
+    padding-top: 50px;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.input input{
+    
+    color: white;
+    text-align: center;
+    padding: 12px 5px;
+    font-size: 15px;
+    
+}
+
+.inputs >:nth-child(1){
+    background:#198754 ;
+
+}
+.inputs >:nth-child(1):active{
+    background:#588470 ;
+
+}
+.inputs >:nth-child(2){
+    background:black ;
+
+}
+.inputs >:nth-child(2):active{
+    background:rgb(37, 37, 37);
+
+}
+.inputs >:nth-child(3){
+    background:black ;
+
+}
+.carousel-item {
+    width: 400px;
+    aspect-ratio: 1;
+}
+
+
+.inputs >:nth-child(3):active{
+    background:rgb(37, 37, 37);
+
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    padding: 6px;
+
+
+
+}
+form .inputs{
+   grid-column: 1/10;
+   border: none; /* Remove border */
+   padding: 0; /* Remove padding */
+   margin: 0; /* Remove margin */
+   background: none; /* Remove background */
+   font-family: inherit; /* Use the parent's font */
+   font-size: inherit; /* Use the parent's font size */
+   color: inherit; /* Use the parent's text color */
+   outline: none; /* Remove outline (focus border) */
+   /* Add any other custom styling you want */
+   text-align: start;
+}
+form button{
+    border: none;
+    display: flex;
+    gap: 5px;
+}
+
+form button:hover{
+    background: rgb(122, 133, 127);
+}
+.w-50px-button{
+    border: none;
+    width: 15%;
+    height: 1%;
+    border-right:solid 2px;
+    border-color: var(--color-white);
+}
+
+.feature-header{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+
+}
+
+
+
+  
+  
+  .slider {
+  
+    display:flex;
+  
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+
+    transition: 1s;
+  }
+  .slide {
+    margin:10px ;
+    
+    transition: transform 0.3s ease-in-out;
+  }
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  .controls {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+
+  
+    margin-top: 10px;
+  }
+  
+  .prev-btn,
+  .next-btn {
+
+    position: absolute;
+    top: 150vh;
+    background-color:transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #bbbbbba0;
+    
+    
+  }
+  .prev-btn1,
+  .next-btn1 {
+
+    position: absolute;
+    top:;
+    background-color:transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #bbbbbba0;
+    
+    
+  }
+  .controls i{
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+
+  }
+
+  .prev-btn{
+    left:30px ;
+  }
+  .next-btn{
+    right:30px; 
+  }
+  .indicators {
+    display: flex;
+    margin-top: 10px;
+  }
+  .indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .indicator.active {
+    background-color: #007bff;
+  }
+
+  .container .slider .slide{
+    
+    width: 200px;
+    background;
+    
+    
+    
+  }
+
+  .container .slider .slide .card{
+    border-radius: 0px;
+    width: 200px;
+    
+  }
+
+  .container .slider .slide img{
+    border-radius: 0px;
+    
+  }
+  .slider .slide .card:hover{
+    background: #007bff44;
+    cursor: pointer;
+  }
